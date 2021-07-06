@@ -1,18 +1,162 @@
 body{
-    font-family: 'Cinzel', serif;
-    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
     font-weight: bold;
-
+    background-color: #F9F9F9;
+    height: 100%;
 }
+.header{
+    padding: 0px 150px;
+    margin-bottom: 10vh;
+}
+h1, h2{
+
+    color: #575757;
+    font-size: 3.5em;
+}
+p{
+    font-size: 1.5em;
+    color: grey;
+    margin-top: 10px;
+    
+}
+
 span{
-    color: rgb(11, 131, 131);
+    color: #048CF7;
 }
 section{
     display: flex;
+    align-items: center;
     height: 50%;
-    width: 50%;
+    
 }
+
+.about{
+    background-image: url("./image/7.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width:99.1vw;
+    margin-left: -10px;
+    
+}
+
 .half-width{
-    width: 50%;
-    padding: 10px;
+    width: 100%;
+    padding: 2%;
+    max-height: 10%;
+}
+.half-width img{
+    width:100%;
+}
+a{
+    color: white;
+    padding: 18px 25px;
+    background-image: linear-gradient(to right, #0389F6, #A5D4EE);
+    text-decoration: none;
+    border-radius: 30px;    
+}
+
+a:hover{
+    box-shadow: 5px 5px 30px #1190F6;
+    background-image: linear-gradient(to right, #A5D4EE, #0389F6);
+}
+
+.recipes{
+    padding: 0px 350px;
+    text-align: center;
+    margin-top: 10vh;
+}
+.recipes-section{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10vh;
+    padding: 0px 150px;
+
+}
+.card{
+    max-width: 28rem;
+    background-color:white; 
+    border: none;    
+    border-radius:35px;
+    padding: 20px;
+    align-items: center;
+    box-shadow: 5px 5px 10px grey;    
+    margin-bottom: 10vh;
+    border: 1px solid white;
+}
+
+.card:hover{
+    box-shadow: 5px 5px 10px white;  
+    border: 1px solid grey;
+    background-color: white;
+}
+
+
+.card-image{
+    max-width: 28rem;
+    height: 35vh;
+    border-radius: 30px;
+
+}
+
+.card-title{
+    font-size: 3em;
+    font-weight: bold;
+    color: #545366;
+}
+
+.text{
+    font-size: 1.3em;
+    color: rgb(128, 122, 122);
+
+}
+
+.social-media{
+    background-color:white;
+    margin: 0px 150px;
+    box-shadow: 5px 5px 10px lightgray; 
+    display:flex;
+    text-align: center;
+    justify-content: space-around;
+    border-radius: 30px;
+}
+
+.social-header{
+    font-size: 4em;
+    font-weight: bold;
+    color: rgb(51, 47, 85);
+}
+
+.socila-text{
+    font-size: 2em;
+    margin-top: -10px;
+}
+
+footer{
+    background-color:#101010;
+    margin-left: -10px;
+    height: 36vh;
+    text-align: center;
+    width:99.1vw;
+}
+
+.food{
+    padding-top: 10vh;
+   color:#0389F6;
+   font-size: 3em;
+   margin-right: 10px;
+}
+
+.network{
+    color: #A5D4EE;
+    font-size: 3em;
+}
+
+.eat{
+    color: whitesmoke;
+}
+
+.footer-text{
+    margin-top:10vh;
+    padding-top: 7vh;
 }
